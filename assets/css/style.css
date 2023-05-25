@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(./../fonts/Poppins-Regular.ttf);
+  src: url(./../fonts/Poppins-Regular.ttf) format("ttf"),
+    url(./../fonts/Poppins-Regular.ttf) format("truetype");
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: "Poppins-Regular";
+}
+
+.rounded-right-bottom {
+  border-bottom-right-radius: 10rem;
+}
+
+.text-error-validation {
+  color: red;
+  font-size: 0.45rem;
+}
+
+.attribution {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 10px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
